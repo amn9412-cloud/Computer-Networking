@@ -23,7 +23,7 @@ def welcome_assignment_answers(question):
         
     elif question == "What is the SHA256 hashing value of your NYU email and use the answer in your code - ":
         nyu_email = "amn9412@nyu.edu"
-        answer = hashlib.sha256(nyu_email.encode()).hexdigest()
+        answer = 6261602e5d115d9b8993ef88e59062ebb8d11fa9ca1d9d99869ebd267339f46f
         
     elif question == "Is MD5 a secured hashing algorithm? - Yes/No":
         answer = "No"
@@ -50,3 +50,4 @@ if __name__ == "__main__":
     debug_question = "Are encoding and encryption the same? - Yes/No"
 
     print(welcome_assignment_answers(debug_question))
+
