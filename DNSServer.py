@@ -42,7 +42,7 @@ def decrypt_with_aes(encrypted_data, password, salt):
 
 salt = b'Tandon' 
 password = 'amn9412@nyu.edu'
-input_string = "Always Watching"
+input_string = "AlwaysWatching"
 
 encrypted_value = encrypt_with_aes(input_string, password, salt)
 decrypted_value = decrypt_with_aes(encrypted_value, password, salt)
